@@ -58,3 +58,19 @@ pretty cool huh
 2. Never put spaces while naming variables.
 3. Never use any Reserved words or Build-In Identifiers while naming variables.
 4. If you have a word say my variable name it as my_variable, its the python way of naming variables.
+
+There are some more assignment operators that we can use
+
+```python
+my_variable = 200
+my_variable = 200+200
+```
+
+Here we initialysing the value of my_variable as 200, we are then updting it by adding a 200 to itself insted what we can do is
+
+```python
+my_variable = 200
+my_variable += 200
+```
+
+This would also do the job.
