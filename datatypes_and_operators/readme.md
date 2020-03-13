@@ -74,3 +74,10 @@ my_variable += 200
 ```
 
 This would also do the job.
+
+## Exercise 
+
+[Click here](https://github.com/abhijitramesh/script-rattler/blob/master/datatypes_and_operators/reservoir.py)
+
+To checkout the exercise on assigining variables.
+
