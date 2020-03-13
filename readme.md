@@ -1,5 +1,5 @@
 # Python  :snake:
-===========
+
 
 Python has become one of the most common programming languages that is used for almost all technologies right now. (2020 ; if anyone from the future is reading this and goes like what is this guy saying).
 
