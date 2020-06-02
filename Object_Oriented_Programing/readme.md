@@ -13,3 +13,44 @@ These are the characteresetis of the T shirt like color,size,price etc...
 The shirt does some action like changing its price this is called Method.
 #### Object
 The specific T shirt that is derived from this blueprint of T shirts with all specified _Attributes_ and does some _Method_ is called an Object Like the Yellow or Green Shirt.
+
+Lets see how this looks in code
+
+So let us define a class called Shirt
+
+```python
+class Shirt:
+    def __init__(self, shirt_color, shirt_size, shirt_style, shirt_price):
+        self.color = shirt_color
+        self.size = shirt_size
+        self.style = shirt_style
+        self.price = shirt_price
+    
+    def change_price(self, new_price):
+    
+        self.price = new_price
+        
+    def discount(self, discount):
+
+        return self.price * (1 - discount)
+```
+
+Here the __init__ is used to define the method, it is passed in with the attributes that we are associating the shirt with and also self.
+
+So what is self ?
+Lets say we are creating two objects called shirt_one and shirt_two
+
+``` python
+shirt_one = Shirt('red','L','Long-Sleeve',25)
+shirt_two = Shirt('yellow','L','Long-Sleeve',30)
+```
+
+Now i need to change the price of shirt_one object, How does python know that I need to be changing the price of shirt_one and shirt_two this is where self comes to play,Self tells python where the shirt_one object is in the computers memory and helps it to apply the function when i do
+``` python 
+shirt_one.change_price(24)
+```
+here self is implicitly passed.
+
+[click here](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/shirt_exercise.ipynb)
+
+To check out an exercise with solution based on shirt class.
