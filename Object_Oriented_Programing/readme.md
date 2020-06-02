@@ -57,9 +57,9 @@ To check out an exercise with solution based on shirt class.
 
 Normally to write object oriented code or any code in production we do not use Jupiter Notebook, this tool is only meant for exploration and to figure out stuff. 
 
-In production work we use a different file for a class example the Shirt class can be in a file called [shirt.py]
+In production work we use a different file for a class example the Shirt class can be in a file called [shirt.py](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/shirt.py)
 
-and another class called [example.py]
+and another class called [example.py](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/example.py)
 
 in this class we need can import the Shirt class to use it 
 
@@ -80,3 +80,5 @@ shirt_one.style = 'long_sleeve'
 ```
 
 But in practice we use methods to do this rather than accusing it directly since we need to be writing modular code in production.
+
+[Check out](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/salesman.ipynb) this example for better understanding basic oop practices.
