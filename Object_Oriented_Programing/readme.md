@@ -1,0 +1,3 @@
+# Object Oriented Programming
+If you are starting to code in python and you are looking at this page please go away. Object Oriented Programming is not the way to get started with coding. That being said I think it might work out different with different people. I started coding in java which is an Object Oriented Programming pro language. Things did not go well for me then since I was not able to understand most of the stuff that was happening TBH. Then I learned to code in C and that was when things started making sense. Going back to java now I understand most of the core stuff and I am pretty confident about it. Anyways Python is very simple to grasp so lets see.
+
