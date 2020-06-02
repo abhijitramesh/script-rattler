@@ -54,3 +54,29 @@ here self is implicitly passed.
 [click here](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/shirt_exercise.ipynb)
 
 To check out an exercise with solution based on shirt class.
+
+Normally to write object oriented code or any code in production we do not use Jupiter Notebook, this tool is only meant for exploration and to figure out stuff. 
+
+In production work we use a different file for a class example the Shirt class can be in a file called [shirt.py]
+
+and another class called [example.py]
+
+in this class we need can import the Shirt class to use it 
+
+```python
+from shirt import Shirt
+```
+
+The shirt represents the file and Shirt represents the class that we are importing also,
+
+We can access the attributes in an object by using something like
+
+```pyton
+shirt_one.price = 10
+shirt_one.price = 20
+shirt_one.color = 'red'
+shirt_one.size = 'M'
+shirt_one.style = 'long_sleeve'
+```
+
+But in practice we use methods to do this rather than accusing it directly since we need to be writing modular code in production.
