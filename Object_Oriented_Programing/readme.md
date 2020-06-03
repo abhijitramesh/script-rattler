@@ -95,3 +95,27 @@ We can use both inline as well as doctoring comment to comment our code.
 
 # Gaussian Class
 [click here](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/gaussian_code_exercise.ipynb) to checkout the implementation of a class to calculate gaussian distribution.
+
+# Magic Methods
+
+Cool, now we know how to make a gaussian class and from this gaussian class we can create gaussian object which has its own mean and standard deviation, but what if we want to create add two gaussian objects, python does not know to do this since by default it does not know what this does for instance in order to add two gaussian objects the new object would have the sum of means but the for standard deviation the new object should have is root of sum of squares of individual standard deviations.
+
+This is where magic methods comes to play
+
+```python
+__init__(self)
+```
+is an example of magic method
+
+```python
+__add__(self,other)
+```
+is another magic method which we are going to use
+
+by default if i print a gaussian object python would print the location of the object. I can change this by changing the magic method
+
+```python
+__repr__(self)
+```
+
+[implementation](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/magic_methods.ipynb) of magic method in gaussian class.
