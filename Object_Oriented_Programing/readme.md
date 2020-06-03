@@ -92,3 +92,5 @@ We can use both inline as well as doctoring comment to comment our code.
 [click](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) here to check out how to write good comments.
 
 [click here](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/pants.py) to checkout our Pants class but well commented.
+
+[click here](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/gaussian_code_exercise.ipynb) to checkout implementation fo the gaussian distribution as a python class.
