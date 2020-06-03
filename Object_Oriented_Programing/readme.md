@@ -82,3 +82,13 @@ shirt_one.style = 'long_sleeve'
 But in practice we use methods to do this rather than accusing it directly since we need to be writing modular code in production.
 
 [Check out](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/salesman.ipynb) this example for better understanding basic oop practices.
+
+# Commenting
+
+Commenting is an important part while writing code this not only helps you remember what your code is doing but also help other programmers understand the code that you have written and help collaborate.
+
+We can use both inline as well as doctoring comment to comment our code.
+
+[click](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) here to check out how to write good comments.
+
+[click here](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/pants.py) to checkout our Pants class but well commented.
