@@ -204,3 +204,31 @@ Lets [check out](https://github.com/abhijitramesh/script-rattler/tree/master/Obj
 The setup.py file basically contains the meta data of the package that we are creating.
 
 The __init__,py file is to tell python compiler that this is a python package the statements inside it would be executed when the package is imported.
+
+# Uploading Package to PiPy
+
+[check out](https://github.com/abhijitramesh/script-rattler/tree/master/Object_Oriented_Programing/binomial_package) this to find demo of how the package should be before uploading to PiPy
+
+The extra files that I have added is
+
+a [readme.md](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/binomial_package/readme.md) file which contains description of what our package is about.
+
+then [setup.cfg](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/binomial_package/setup.cfg)
+
+and finally a [license.txt](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/binomial_package/license.txt) which hold out copyright to the package
+
+Once this is done we need to create accounts in [test.pypi](https://test.pypi.org/) and [pypi](https://pypi.org/) 
+
+One this is done we need to change directory to where our package is exciting and execute the following
+
+```
+# commands to upload to the pypi test repository
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+pip install --index-url https://test.pypi.org/simple/ abr_distributions
+
+# command to upload to the pypi repository
+twine upload dist/*
+pip install abr_distributions
+```
+
+First we upload to pypi test repository and only if everything is working fine we move on to uploading to main pypi repository.
