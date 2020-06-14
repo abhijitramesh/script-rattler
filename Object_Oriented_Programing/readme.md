@@ -119,3 +119,11 @@ __repr__(self)
 ```
 
 [implementation](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/magic_methods.ipynb) of magic method in gaussian class.
+
+# Inheritance
+
+Let's look at our shit class again,
+
+It has attributes such as color size style and price and also methods such as change_price and discount.
+
+Lets say that this class in a software is used in a shop when the shop expands and accommodates pants,dresses etc.. we might have to write classes with the same methods or attributes. This is not required if we use inheritance lets say we have a patent cloth class and all these classes for shirt pants and dresses are inherited from the class this would allow us to write very less code. Also one another advantage is if we have to add a new attribute say material we need can just modify the parent class and this would be automatically adopted for all the child classes.
