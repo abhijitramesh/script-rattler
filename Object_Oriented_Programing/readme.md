@@ -196,3 +196,11 @@ Till now we have been working on Jupyter notebook to explore our code but when w
 Go through the code to figure out what we are doing.
 
 The only addition that is done here is we use import statements in the beginning to tell the compiler where to look for the required classes.
+
+# Packaging
+
+Lets [check out](https://github.com/abhijitramesh/script-rattler/tree/master/Object_Oriented_Programing/Packaging) how to create python packages
+
+The setup.py file basically contains the meta data of the package that we are creating.
+
+The __init__,py file is to tell python compiler that this is a python package the statements inside it would be executed when the package is imported.
