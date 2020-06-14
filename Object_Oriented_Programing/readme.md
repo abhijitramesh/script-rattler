@@ -193,3 +193,6 @@ Till now we have been working on Jupyter notebook to explore our code but when w
 
 [Refactoring Distribution and Gaussian Class to Modules](https://github.com/abhijitramesh/script-rattler/tree/master/Object_Oriented_Programing/modularized_code)
 
+Go through the code to figure out what we are doing.
+
+The only addition that is done here is we use import statements in the beginning to tell the compiler where to look for the required classes.
