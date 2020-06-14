@@ -184,3 +184,5 @@ also we have included a new double_price method in the Shirt class.
 If we need to have new attributes we have added that also for example the long_or_short attribute in the Shirt class and waist attribute in the Pants class.
 
 we have override the calculate_discount method in the Pants class.
+
+[Inheritance with Gaussian Class](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/inheritance_probability_distribution.ipynb)
