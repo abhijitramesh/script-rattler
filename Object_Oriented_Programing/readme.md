@@ -170,3 +170,17 @@ class Pants(Clothing):
 Here we have defined the cloth class first and then set the common attributes which all the child classes can inherit from.
 
 [example of inheritance](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/inheritance_exercise_clothing.ipynb)
+
+
+We can see in the shirt and pants class that we have included Clothing in the parentheses this is because we care telling python to inherit from the clothing class.
+
+After this we are doing initialization of the common attribute by doing
+```python
+Clothing.__init__()
+```
+
+also we have included a new double_price method in the Shirt class.
+
+If we need to have new attributes we have added that also for example the long_or_short attribute in the Shirt class and waist attribute in the Pants class.
+
+we have override the calculate_discount method in the Pants class.
