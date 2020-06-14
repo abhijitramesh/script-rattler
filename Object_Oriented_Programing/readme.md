@@ -127,3 +127,46 @@ Let's look at our shit class again,
 It has attributes such as color size style and price and also methods such as change_price and discount.
 
 Lets say that this class in a software is used in a shop when the shop expands and accommodates pants,dresses etc.. we might have to write classes with the same methods or attributes. This is not required if we use inheritance lets say we have a patent cloth class and all these classes for shirt pants and dresses are inherited from the class this would allow us to write very less code. Also one another advantage is if we have to add a new attribute say material we need can just modify the parent class and this would be automatically adopted for all the child classes.
+
+## Syntax
+
+```python
+
+class Clothing:
+    def __init__(self,color,size,style,price):
+    self.color = color
+    self.size = size
+    self.style = style
+    self.price = price
+
+    def change_price(self,price):
+    self.price = price
+
+    def calcualte_discount(self,discount):
+        return self.price * (1-discount)
+
+class Shirt(Clothing):
+
+    def __init__(self,color,size,style,price,long_or_short):
+
+    Clothing.__init__(self,color,size,style,price)
+    self.long_or_short = long_or_short
+
+    def double_price(self):
+    self.price = 2*self.price
+
+class Pants(Clothing):
+
+    def __init__(self,color,size,style,price,waist):
+
+    Clothing.__init__(self,color,size,style,price)
+    self.waist = waist
+
+    def calculate_discount(self,discount):
+    return self.price * (1-discount /2)
+
+```
+
+Here we have defined the cloth class first and then set the common attributes which all the child classes can inherit from.
+
+[example of inheritance](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/inheritance_exercise_clothing.ipynb)
