@@ -186,3 +186,10 @@ If we need to have new attributes we have added that also for example the long_o
 we have override the calculate_discount method in the Pants class.
 
 [Inheritance with Gaussian Class](https://github.com/abhijitramesh/script-rattler/blob/master/Object_Oriented_Programing/inheritance_probability_distribution.ipynb)
+
+# Modularizing
+
+Till now we have been working on Jupyter notebook to explore our code but when we write software we need to divide our code into modules and then we should use these to make our package.
+
+[Refactoring Distribution and Gaussian Class to Modules](https://github.com/abhijitramesh/script-rattler/tree/master/Object_Oriented_Programing/modularized_code)
+
